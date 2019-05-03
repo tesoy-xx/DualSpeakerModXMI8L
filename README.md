@@ -4,4 +4,4 @@ ncandroid84 @ xda-developers
 
 Descriptión:
 
-This module enables the earpiece to simultaneously play with the speaker to create a pseudo stereo effect
+Systemless Way of Enabling DualSpeaker/PseudoStereo SoundMod for (XiaomiMI8Lite)...
