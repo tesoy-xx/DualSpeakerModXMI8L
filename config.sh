@@ -41,7 +41,7 @@ LATESTARTSERVICE=false
 
 print_modname() {
   ui_print "*******************************"
-  ui_print "EnableGcam+FixFronCamera-Mi8Lite-Pie"
+  ui_print "DualSpeaker-for-XiaomiMI8Lite-"
   ui_print "*******************************"
 }
 
