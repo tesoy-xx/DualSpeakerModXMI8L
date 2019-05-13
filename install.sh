@@ -25,7 +25,7 @@
 SKIPMOUNT=false
 
 # Set to true if you need to load system.prop
-PROPFILE=true
+PROPFILE=false
 
 # Set to true if you need post-fs-data script
 POSTFSDATA=false
@@ -129,9 +129,9 @@ REPLACE="
 # Set what you want to display when installing your module
 
 print_modname() {
-  ui_print "*******************************"
-  ui_print "EnableGcam+FixFrontCamera-Mi8Lite-Pie"
-  ui_print "*******************************"
+  ui_print "*******************************************"
+  ui_print "Dual Speaker Mod for XiaomiMi8lite Platina "
+  ui_print "*******************************************"
 }
 
 # Copy/extract your module files into $MODPATH in on_install.
