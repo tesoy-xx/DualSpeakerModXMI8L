@@ -2,6 +2,8 @@ DualSpeaker-for-XiaomiMI8Lite PLATINA
 -
 ncandroid84 @ xda-developers
 -
+Initial Release: v1.0 13/05/2019
+
 Descriptión:
 -
 Systemless Way of Enabling DualSpeaker/PseudoStereo SoundMod for (XiaomiMI8Lite) code name Platina.
