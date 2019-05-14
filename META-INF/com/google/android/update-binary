@@ -13,22 +13,29 @@ $BOOTMODE || ps -A 2>/dev/null | grep zygote | grep -v grep >/dev/null && BOOTMO
 TMPDIR=/dev/tmp
 INSTALLER=$TMPDIR/install
 MAGISKBIN=/data/adb/magisk
+MOUNTPATH=/dev/magisk_img
 
 # Default permissions
 umask 022
 
 # Initial cleanup
 rm -rf $TMPDIR 2>/dev/null
+mkdir -p $TMPDIR
 mkdir -p $INSTALLER
 
 # echo before loading util_functions
 ui_print() { echo "$1"; }
 
 require_new_magisk() {
-  ui_print "*******************************"
-  ui_print " Please install Magisk 18.1+! "
-  ui_print "*******************************"
+  ui_print "***********************************"
+  ui_print " Please install the latest Magisk! "
+  ui_print "***********************************"
   exit 1
+}
+
+imageless_magisk() {
+  [ $MAGISK_VER_CODE -gt 18100 ]
+  return $?
 }
 
 ##########################################################################################
