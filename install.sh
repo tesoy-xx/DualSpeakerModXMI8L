@@ -143,7 +143,7 @@ on_install() {
     ui_print "- Extracting module files"
     unzip -o "$ZIPFILE" 'system/*' -d $MODPATH >&2
   else
-    abort "This is only for Xiaomi MI 8 Lite (Platina) Pie!"
+    cancel "This is only for Xiaomi MI 8 Lite (Platina) Pie!"
   fi
 }
 
